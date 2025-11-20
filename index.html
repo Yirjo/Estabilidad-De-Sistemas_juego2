@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Estabilidad - PRO Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="startScreen">
+        <h1>CONTROL DE ESTABILIDAD</h1>
+        <p>Mantén el dron dentro de la ZONA ESTABLE.</p>
+        <p>Controles: ↑ y ↓ — Reiniciar: R</p>
+        <button id="startBtn">INICIAR</button>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="450"></canvas>
+     <div id="touchControls">
+    <div id="btnUp">▲</div>
+    <div id="btnDown">▼</div>
+</div>
+
+    <div id="gameOverScreen">
+        <h2>SISTEMA INESTABLE</h2>
+        <p>Presiona <b>R</b> para reiniciar</p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
